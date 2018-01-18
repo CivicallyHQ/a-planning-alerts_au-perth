@@ -1,0 +1,18 @@
+en:
+  js:
+    notifications:
+      alt:
+        a_planning_alerts_au_perth:
+          notification:
+            message: <i title='application' class='fa fa-external-link'></i><p>{{description}}</p>
+    a_planning_alerts_au_perth:
+      title: "Australian Planning Alerts"
+      about: "Get alerts about what's happening where you live"
+      placeholder: "Enter an Australian postcode"
+      submit: "Submit"
+      enabled: "You will recieve alerts about {{postcode}}"
+      disabled: "Your alerts for {{postcode}} are disabled"
+      change_id: "Change"
+      check_now: "Test"
+      notification:
+        message: <i title='application' class='fa fa-external-link'></i><p>{{description}}</p>
