@@ -1,9 +1,9 @@
-import { createApp } from 'discourse/plugins/civically-app/discourse/widgets/app';
+import { createAppWidget } from 'discourse/plugins/civically-app/discourse/widgets/app-widget';
 import { popupAjaxError } from 'discourse/lib/ajax-error';
 import { ajax } from 'discourse/lib/ajax';
 import { h } from 'virtual-dom';
 
-export default createApp('a-planning-alerts-au-perth', {
+export default createAppWidget('a-planning-alerts-au-perth', {
   tagName: 'div.a-planning-alerts-au-perth',
   buildKey: () => 'a-planning-alerts-au-perth',
 
@@ -73,7 +73,8 @@ export default createApp('a-planning-alerts-au-perth', {
     this.state.showInput = true;
   },
 
-  content(attrs, state) {
+  contents() {
+    const state = this.state;
     const user = this.currentUser;
     let contents = [];
 

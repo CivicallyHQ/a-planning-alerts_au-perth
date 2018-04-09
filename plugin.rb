@@ -1,8 +1,7 @@
 # name: a-planning-alerts_au-perth
-# app: true
+# app: external
 # version: 0.1
 # authors: angus
-# image_url: https://fortunelords-zpq4xnxcq9v.netdna-ssl.com/wp-content/uploads/2017/02/google-alerts.jpg
 # url: https://github.com/civicallyhq/c-planning-alerts-au-perth
 
 register_asset 'stylesheets/a-planning-alerts-au-perth.scss'
